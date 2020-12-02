@@ -14,9 +14,13 @@ public class PlayerController : MonoBehaviour
 
     bool canDoubleJump;
 
+    Animator anim;
+    SpriteRenderer theSR;
+
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
+        theSR = GetComponent<SpriteRenderer>();
     }
 
     
@@ -48,5 +52,17 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+
+        if (theRB.velocity.x < 0)
+        {
+            theSR.flipX = true;
+        }
+        else if (theRB.velocity.x > 0)
+        {
+            theSR.flipX = false;
+        }
+
+        anim.SetFloat("moveSpeed", Mathf.Abs(theRB.velocity.x)); // Gets the absolute value of velocity.x so that animation works in both directions
+        anim.SetBool("isGrounded", isGrounded);
     }
 }
