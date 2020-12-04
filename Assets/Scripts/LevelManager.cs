@@ -6,6 +6,7 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
     [SerializeField] float waitToRespawn;
+    public int gemsCollected;
 
     void Awake()
     {
