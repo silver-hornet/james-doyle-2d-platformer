@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerHealthController : MonoBehaviour
 {
     public static PlayerHealthController instance; // Set up a singleton
-
     public int currentHealth, maxHealth;
     [SerializeField] float invincibleLength;
     float invincibleCounter;
@@ -45,14 +44,13 @@ public class PlayerHealthController : MonoBehaviour
             if (currentHealth <= 0)
             {
                 currentHealth = 0; // To protect against any weird errors that might happen if currentHealth somehow goes below 0
-                gameObject.SetActive(false);
+                LevelManager.instance.RespawnPlayer();
             }
             else
             {
                 invincibleCounter = invincibleLength;
                 theSR.color = new Color(theSR.color.r, theSR.color.g, theSR.color.b, 0.5f);
                 PlayerController.instance.KnockBack();
-
             }
 
             UIController.instance.UpdateHealthDisplay();

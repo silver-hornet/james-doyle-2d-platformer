@@ -6,23 +6,12 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
     public static UIController instance;
-
     [SerializeField] Image heart1, heart2, heart3;
     [SerializeField] Sprite heartFull, heartHalf, heartEmpty;
 
     void Awake()
     {
         instance = this;
-    }
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
     }
 
     public void UpdateHealthDisplay()

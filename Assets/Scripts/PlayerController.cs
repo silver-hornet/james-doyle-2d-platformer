@@ -9,16 +9,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] Rigidbody2D theRB;
     [SerializeField] float jumpForce;
-
     bool isGrounded;
     [SerializeField] Transform groundCheckPoint;
     [SerializeField] LayerMask whatIsGround;
-
     bool canDoubleJump;
-
     Animator anim;
     SpriteRenderer theSR;
-
     [SerializeField] float knockBackLength, knockBackForce;
     float knockBackCounter;
 
@@ -95,6 +91,6 @@ public class PlayerController : MonoBehaviour
     {
         knockBackCounter = knockBackLength;
         theRB.velocity = new Vector2(0f, theRB.velocity.y);
-
+        anim.SetTrigger("hurt");
     }
 }

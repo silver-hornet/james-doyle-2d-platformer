@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamagePlayer : MonoBehaviour
+public class KillPlayer : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            PlayerHealthController.instance.DealDamage();
+            LevelManager.instance.RespawnPlayer();
         }
     }
 }

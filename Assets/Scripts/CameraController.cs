@@ -7,7 +7,6 @@ public class CameraController : MonoBehaviour
     [SerializeField] Transform target;
     [SerializeField] Transform farBackground, middleBackground;
     [SerializeField] float minHeight, maxHeight;
-
     Vector2 lastPos;
 
     void Start()
