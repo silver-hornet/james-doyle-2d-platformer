@@ -6,6 +6,7 @@ public class Pickup : MonoBehaviour
 {
     [SerializeField] bool isGem, isHeal;
     bool isCollected;
+    [SerializeField] GameObject pickupEffect;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -16,6 +17,7 @@ public class Pickup : MonoBehaviour
                 LevelManager.instance.gemsCollected++;
                 isCollected = true;
                 Destroy(gameObject);
+                Instantiate(pickupEffect, transform.position, transform.rotation);
 
                 UIController.instance.UpdateGemCount();
             }
@@ -27,6 +29,7 @@ public class Pickup : MonoBehaviour
                     PlayerHealthController.instance.HealPlayer();
                     isCollected = true;
                     Destroy(gameObject);
+                    Instantiate(pickupEffect, transform.position, transform.rotation);
                 }
             }
         }

@@ -8,6 +8,7 @@ public class PlayerHealthController : MonoBehaviour
     public int currentHealth, maxHealth;
     [SerializeField] float invincibleLength;
     float invincibleCounter;
+    [SerializeField] GameObject deathEffect;
 
     SpriteRenderer theSR;
 
@@ -44,6 +45,7 @@ public class PlayerHealthController : MonoBehaviour
             if (currentHealth <= 0)
             {
                 currentHealth = 0; // To protect against any weird errors that might happen if currentHealth somehow goes below 0
+                Instantiate(deathEffect, transform.position, transform.rotation);
                 LevelManager.instance.RespawnPlayer();
             }
             else
