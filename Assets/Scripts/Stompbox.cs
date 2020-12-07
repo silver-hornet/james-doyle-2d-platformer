@@ -16,10 +16,13 @@ public class Stompbox : MonoBehaviour
             Instantiate(deathEffect, other.transform.position, other.transform.rotation);
             PlayerController.instance.Bounce();
             float dropSelect = Random.Range(0, 100f);
+
             if (dropSelect <= chanceToDrop)
             {
                 Instantiate(collectible, other.transform.position, other.transform.rotation);
             }
+
+            AudioManager.instance.PlaySFX(3);
         }
     }
 }
