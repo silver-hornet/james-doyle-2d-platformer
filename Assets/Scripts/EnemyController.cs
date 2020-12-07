@@ -9,12 +9,14 @@ public class EnemyController : MonoBehaviour
     bool movingRight;
     Rigidbody2D theRB;
     [SerializeField] SpriteRenderer theSR;
+    Animator anim;
     [SerializeField] float moveTime, waitTime;
     float moveCount, waitCount;
 
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         leftPoint.parent = null;
         rightPoint.parent = null;
         // The above two lines detach these child objects from the parent so that the leftPoint and rightPoint stays fixed,
@@ -53,6 +55,8 @@ public class EnemyController : MonoBehaviour
             {
                 waitCount = Random.Range (waitTime * 0.75f, waitTime * 1.25f);
             }
+
+            anim.SetBool("isMoving", true);
         }
         else if (waitCount > 0)
         {
@@ -63,6 +67,7 @@ public class EnemyController : MonoBehaviour
             {
                 moveCount = Random.Range(moveTime * 0.75f, moveTime * 1.25f);
             }
+            anim.SetBool("isMoving", false);
         }
     }
 }

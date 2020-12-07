@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer theSR;
     [SerializeField] float knockBackLength, knockBackForce;
     float knockBackCounter;
+    [SerializeField] float bounceForce;
 
     void Awake()
     {
@@ -92,5 +93,10 @@ public class PlayerController : MonoBehaviour
         knockBackCounter = knockBackLength;
         theRB.velocity = new Vector2(0f, theRB.velocity.y);
         anim.SetTrigger("hurt");
+    }
+
+    public void Bounce()
+    {
+        theRB.velocity = new Vector2(theRB.velocity.x, bounceForce);
     }
 }

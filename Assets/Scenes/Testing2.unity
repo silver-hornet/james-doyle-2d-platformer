@@ -329,7 +329,9 @@ GameObject:
   - component: {fileID: 375491663}
   - component: {fileID: 375491662}
   - component: {fileID: 375491664}
+  - component: {fileID: 375491666}
   - component: {fileID: 375491665}
+  - component: {fileID: 375491667}
   m_Layer: 0
   m_Name: Enemy Frog
   m_TagString: Untagged
@@ -462,6 +464,44 @@ MonoBehaviour:
   theSR: {fileID: 1326603589}
   moveTime: 3
   waitTime: 2
+--- !u!61 &375491666
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375491660}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.017863274, y: -0.25782737}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5501842, y: 0.7272833}
+  m_EdgeRadius: 0
+--- !u!114 &375491667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375491660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac3a36adf6cc4f86b12fe51785ed49c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &524563034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,15 +1067,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1626131478118675624, guid: a16dc1ca349754109aacc1962c1a80ee,
         type: 3}
+    - target: {fileID: 5748364342883015458, guid: fbf2714b6ba7241d59ac1b61cb869a78,
+        type: 3}
+      propertyPath: bounceForce
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 5748364342883015463, guid: fbf2714b6ba7241d59ac1b61cb869a78,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.2651937
+      value: -1.64
       objectReference: {fileID: 0}
     - target: {fileID: 5748364342883015463, guid: fbf2714b6ba7241d59ac1b61cb869a78,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -1.96
       objectReference: {fileID: 0}
     - target: {fileID: 5748364342883015463, guid: fbf2714b6ba7241d59ac1b61cb869a78,
         type: 3}
@@ -4582,7 +4627,7 @@ GameObject:
   - component: {fileID: 1326603590}
   m_Layer: 0
   m_Name: Frog Sprite
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4997,6 +5042,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788040520}
   m_CullTransparentMesh: 0
+--- !u!1 &1987856611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987856612}
+  - component: {fileID: 1987856613}
+  - component: {fileID: 1987856614}
+  m_Layer: 9
+  m_Name: Stompbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1987856612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987856611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1079015199}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1987856613
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987856611}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.06919122, y: -1.1194412}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.472095, y: 0.2382462}
+  m_EdgeRadius: 0
+--- !u!114 &1987856614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987856611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f533ca8d1d9c46bd9bd3b100c77aaf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathEffect: {fileID: 1626131478118675624, guid: a16dc1ca349754109aacc1962c1a80ee,
+    type: 3}
+  collectible: {fileID: 2560107345074236478, guid: 7d696b71365ff44e293fb4ebd1011b8c,
+    type: 3}
+  chanceToDrop: 25
 --- !u!1001 &2061856422
 PrefabInstance:
   m_ObjectHideFlags: 0
