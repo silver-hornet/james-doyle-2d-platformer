@@ -22,7 +22,10 @@ public class LevelManager : MonoBehaviour
     {
         PlayerController.instance.gameObject.SetActive(false);
         AudioManager.instance.PlaySFX(8);
-        yield return new WaitForSeconds(waitToRespawn);
+        yield return new WaitForSeconds(waitToRespawn - (1f / UIController.instance.fadeSpeed));
+        UIController.instance.FadeToBlack();
+        yield return new WaitForSeconds((1f / UIController.instance.fadeSpeed) + 0.2f);
+        UIController.instance.FadeFromBlack();
         PlayerController.instance.gameObject.SetActive(true);
         PlayerController.instance.transform.position = CheckpointController.instance.spawnPoint;
         PlayerHealthController.instance.currentHealth = PlayerHealthController.instance.maxHealth;

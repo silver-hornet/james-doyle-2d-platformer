@@ -9,6 +9,9 @@ public class UIController : MonoBehaviour
     [SerializeField] Image heart1, heart2, heart3;
     [SerializeField] Sprite heartFull, heartHalf, heartEmpty;
     [SerializeField] Text gemText;
+    [SerializeField] Image fadeScreen;
+    public float fadeSpeed;
+    bool shouldFadeToBlack, shouldFadeFromBlack;
 
     void Awake()
     {
@@ -18,6 +21,28 @@ public class UIController : MonoBehaviour
     void Start()
     {
         UpdateGemCount();
+        FadeFromBlack();
+    }
+
+    void Update()
+    {
+        if (shouldFadeToBlack)
+        {
+            fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, Mathf.MoveTowards(fadeScreen.color.a, 1f, fadeSpeed * Time.deltaTime));
+            if (fadeScreen.color.a == 1f)
+            {
+                shouldFadeToBlack = false;
+            }
+        }
+
+        if (shouldFadeFromBlack)
+        {
+            fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, Mathf.MoveTowards(fadeScreen.color.a, 0f, fadeSpeed * Time.deltaTime));
+            if (fadeScreen.color.a == 0f)
+            {
+                shouldFadeFromBlack = false;
+            }
+        }
     }
 
     public void UpdateHealthDisplay()
@@ -65,5 +90,17 @@ public class UIController : MonoBehaviour
     public void UpdateGemCount()
     {
         gemText.text = LevelManager.instance.gemsCollected.ToString();
+    }
+
+    public void FadeToBlack()
+    {
+        shouldFadeToBlack = true;
+        shouldFadeFromBlack = false;
+    }
+
+    public void FadeFromBlack()
+    {
+        shouldFadeFromBlack = true;
+        shouldFadeToBlack = false;
     }
 }
