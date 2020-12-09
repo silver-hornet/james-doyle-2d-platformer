@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float knockBackLength, knockBackForce;
     float knockBackCounter;
     [SerializeField] float bounceForce;
+    public bool stopInput;
 
     void Awake()
     {
@@ -33,7 +34,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (!PauseMenu.instance.isPaused)
+        if (!PauseMenu.instance.isPaused && !stopInput)
         {
             if (knockBackCounter <= 0)
             {

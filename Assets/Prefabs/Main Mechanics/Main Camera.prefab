@@ -99,5 +99,6 @@ MonoBehaviour:
   target: {fileID: 0}
   farBackground: {fileID: 0}
   middleBackground: {fileID: 0}
-  minHeight: -1.5
+  minHeight: -0.5
   maxHeight: 2.5
+  stopFollow: 0

@@ -12,6 +12,7 @@ public class UIController : MonoBehaviour
     [SerializeField] Image fadeScreen;
     public float fadeSpeed;
     bool shouldFadeToBlack, shouldFadeFromBlack;
+    public GameObject levelCompleteText;
 
     void Awake()
     {
