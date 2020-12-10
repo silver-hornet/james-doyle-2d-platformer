@@ -523,7 +523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waitToRespawn: 2
   gemsCollected: 0
-  levelToLoad: MainMenu
+  levelToLoad: LevelSelect
 --- !u!1 &711358969212904712
 GameObject:
   m_ObjectHideFlags: 0
