@@ -51,6 +51,8 @@ public class LSPlayer : MonoBehaviour
 
         if (currentPoint.isLevel && currentPoint.levelToLoad !="" && !currentPoint.isLocked)
         {
+            LSUIController.instance.ShowInfo(currentPoint);
+
             if (Input.GetButtonDown("Jump"))
             {
                 levelLoading = true;
@@ -62,5 +64,6 @@ public class LSPlayer : MonoBehaviour
         void SetNextPoint(MapPoint nextPoint)
     {
         currentPoint = nextPoint;
+        LSUIController.instance.HideInfo();
     }
 }
