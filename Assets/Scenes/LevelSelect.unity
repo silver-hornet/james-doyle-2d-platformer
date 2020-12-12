@@ -12626,7 +12626,27 @@ PrefabInstance:
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
       propertyPath: totalGems
-      value: 7
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: '1: Double Jump Disaster'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: Level1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: Level1-1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}

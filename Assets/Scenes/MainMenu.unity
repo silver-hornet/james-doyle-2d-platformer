@@ -917,7 +917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d483e00c69d7e4099955fe2ed9a0b1a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startScene: Testing2
+  startScene: Level1-1
   continueScene: LevelSelect
   continueButton: {fileID: 1123838901}
 --- !u!1 &1694907538
