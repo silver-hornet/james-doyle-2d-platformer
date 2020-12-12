@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public static PlayerController instance;
 
     [SerializeField] float moveSpeed;
-    [SerializeField] Rigidbody2D theRB;
+    public Rigidbody2D theRB;
     [SerializeField] float jumpForce;
     bool isGrounded;
     [SerializeField] Transform groundCheckPoint;
