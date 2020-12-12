@@ -408,6 +408,46 @@ PrefabInstance:
       propertyPath: up
       value: 
       objectReference: {fileID: 786682392}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &207444276 stripped
@@ -505,6 +545,46 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 2032313925}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &238800580 stripped
@@ -589,7 +669,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &370113065
 PrefabInstance:
@@ -668,6 +748,46 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 1648496675}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &370113066 stripped
@@ -843,6 +963,46 @@ PrefabInstance:
       propertyPath: up
       value: 
       objectReference: {fileID: 1733470591}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &459475570 stripped
@@ -940,6 +1100,46 @@ PrefabInstance:
       propertyPath: down
       value: 
       objectReference: {fileID: 654433913}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &461779170 stripped
@@ -1037,6 +1237,46 @@ PrefabInstance:
       propertyPath: right
       value: 
       objectReference: {fileID: 786682392}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &654433912 stripped
@@ -1226,10 +1466,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1646044549}
   - {fileID: 1698599937}
+  - {fileID: 1646044549}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1333,6 +1573,46 @@ PrefabInstance:
       propertyPath: down
       value: 
       objectReference: {fileID: 207444277}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &786682391 stripped
@@ -1430,6 +1710,46 @@ PrefabInstance:
       propertyPath: down
       value: 
       objectReference: {fileID: 1801660503}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &849152916 stripped
@@ -9191,6 +9511,46 @@ PrefabInstance:
       propertyPath: down
       value: 
       objectReference: {fileID: 3715015346181005712}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &1084047993 stripped
@@ -9514,7 +9874,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352064621
 GameObject:
@@ -9900,7 +10260,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 760098953}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -10201,6 +10561,46 @@ PrefabInstance:
       propertyPath: down
       value: 
       objectReference: {fileID: 370113067}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &1698514045 stripped
@@ -10260,7 +10660,7 @@ RectTransform:
   - {fileID: 156532993}
   - {fileID: 702759041}
   m_Father: {fileID: 760098953}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -10332,8 +10732,87 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1703694059
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3443588297346559057, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627409, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627422, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443588297482627423, guid: 9ddd223d509994ff08c606b2b55720cc,
+        type: 3}
+      propertyPath: bgm
+      value: 
+      objectReference: {fileID: 1304608780}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9ddd223d509994ff08c606b2b55720cc, type: 3}
 --- !u!1 &1713657159
 GameObject:
   m_ObjectHideFlags: 0
@@ -10461,6 +10940,46 @@ PrefabInstance:
       propertyPath: up
       value: 
       objectReference: {fileID: 2123877366}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &1733470590 stripped
@@ -10558,6 +11077,46 @@ PrefabInstance:
       propertyPath: up
       value: 
       objectReference: {fileID: 849152917}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: isLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelToCheck
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: levelName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: gemsCollected
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: bestTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
 --- !u!4 &1801660502 stripped
@@ -11609,7 +12168,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1977930069
 GameObject:
@@ -12061,48 +12620,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
-      propertyPath: isLevel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
-        type: 3}
       propertyPath: up
       value: 
       objectReference: {fileID: 1084047994}
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
-      propertyPath: levelToLoad
-      value: Testing2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
-        type: 3}
-      propertyPath: levelToCheck
-      value: Testing2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
-        type: 3}
-      propertyPath: levelName
-      value: '1: The Beginning'
-      objectReference: {fileID: 0}
-    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
-        type: 3}
-      propertyPath: gemsCollected
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
-        type: 3}
       propertyPath: totalGems
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
-        type: 3}
-      propertyPath: bestTime
-      value: 43.1234
-      objectReference: {fileID: 0}
-    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
-        type: 3}
-      propertyPath: targetTime
-      value: 30
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}

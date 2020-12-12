@@ -29,4 +29,10 @@ public class AudioManager : MonoBehaviour
         soundEffects[soundToPlay].pitch = Random.Range(0.9f, 1.1f); // Adds variety to sound effects so it's less repetitive and irritating to hear the exact same sound effect all the time
         soundEffects[soundToPlay].Play();
     }
+
+    public void PlayLevelVictory()
+    {
+        bgm.Stop();
+        levelEndMusic.Play();
+    }
 }

@@ -5,23 +5,30 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] string startScene;
+    [SerializeField] string startScene, continueScene;
+    [SerializeField] GameObject continueButton;
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        if (PlayerPrefs.HasKey(startScene + "_unlocked"))
+        {
+            continueButton.SetActive(true);
+        }
+        else
+        {
+            continueButton.SetActive(false);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ContinueGame()
     {
-        
+        SceneManager.LoadScene(continueScene);
     }
-
+    
     public void StartGame()
     {
         SceneManager.LoadScene(startScene);
+        PlayerPrefs.DeleteAll();
     }
 
     public void QuitGame()

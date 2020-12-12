@@ -291,7 +291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -524,6 +524,7 @@ MonoBehaviour:
   waitToRespawn: 2
   gemsCollected: 0
   levelToLoad: LevelSelect
+  timeInLevel: 0
 --- !u!1 &711358969212904712
 GameObject:
   m_ObjectHideFlags: 0
