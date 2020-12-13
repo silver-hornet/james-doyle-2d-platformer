@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1987856612}
   - component: {fileID: 1987856613}
   - component: {fileID: 1987856614}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Stompbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -6,6 +6,11 @@ public class BossBullet : MonoBehaviour
 {
     [SerializeField] float speed;
 
+    void Start()
+    {
+        AudioManager.instance.PlaySFX(2);
+    }
+
     void Update()
     {
         transform.position += new Vector3(-speed * transform.localScale.x * Time.deltaTime, 0f, 0f);
@@ -19,6 +24,7 @@ public class BossBullet : MonoBehaviour
             PlayerHealthController.instance.DealDamage();
         }
 
+        AudioManager.instance.PlaySFX(1);
         Destroy(gameObject);
     }
 }

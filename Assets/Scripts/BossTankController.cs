@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BossTankController : MonoBehaviour
 {
-    [SerializeField] enum bossStates { shooting, hurt, moving };
+    [SerializeField] enum bossStates { shooting, hurt, moving, ended };
     [SerializeField] bossStates currentState;
     [SerializeField] Transform theBoss;
     [SerializeField] Animator anim;
@@ -28,6 +28,12 @@ public class BossTankController : MonoBehaviour
     [SerializeField] float hurtTime;
     float hurtCounter;
     [SerializeField] GameObject hitBox;
+
+    [Header("Health")]
+    [SerializeField] int health = 5;
+    [SerializeField] GameObject explosion, winPlatform;
+    bool isDefeated;
+    [SerializeField] float shotSpeedUp, mineSpeedUp;
 
     void Start()
     {
@@ -55,6 +61,15 @@ public class BossTankController : MonoBehaviour
                     {
                         currentState = bossStates.moving;
                         mineCounter = 0;
+
+                        if (isDefeated)
+                        {
+                            theBoss.gameObject.SetActive(false);
+                            Instantiate(explosion, theBoss.position, theBoss.rotation);
+                            winPlatform.SetActive(true);
+                            AudioManager.instance.StopBossMusic();
+                            currentState = bossStates.ended; // Don't need a separate swith case for ended since nothing else will be happening at this point
+                        }
                     }
                 }
                 break;
@@ -103,6 +118,7 @@ public class BossTankController : MonoBehaviour
         currentState = bossStates.hurt;
         hurtCounter = hurtTime;
         anim.SetTrigger("Hit");
+        AudioManager.instance.PlaySFX(0);
         BossTankMine[] mines = FindObjectsOfType<BossTankMine>();
         if (mines.Length > 0)
         {
@@ -110,6 +126,17 @@ public class BossTankController : MonoBehaviour
             {
                 foundMine.Explode();
             }
+        }
+
+        health--;
+        if (health <= 0)
+        {
+            isDefeated = true;
+        }
+        else
+        {
+            timeBetweenShots /= shotSpeedUp;
+            timeBetweenMines /= mineSpeedUp;
         }
     }
 
