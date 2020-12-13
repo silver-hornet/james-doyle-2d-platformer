@@ -109,9 +109,8 @@ public class BossTankController : MonoBehaviour
         {
             TakeHit();
         }
-    }
-
 #endif
+    }
 
     public void TakeHit()
     {

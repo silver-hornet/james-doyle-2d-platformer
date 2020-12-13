@@ -1094,7 +1094,7 @@ PrefabInstance:
         type: 3}
       propertyPath: left
       value: 
-      objectReference: {fileID: 1102518280}
+      objectReference: {fileID: 849152917}
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
       propertyPath: down
@@ -1704,7 +1704,7 @@ PrefabInstance:
         type: 3}
       propertyPath: right
       value: 
-      objectReference: {fileID: 1102518280}
+      objectReference: {fileID: 461779171}
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
       propertyPath: down
@@ -9651,7 +9651,7 @@ PrefabInstance:
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
       propertyPath: isLevel
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
@@ -9686,18 +9686,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1102518278}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1102518280 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1102518278}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19c3c48bda503450683642fd97dd022f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1254780318
 GameObject:
   m_ObjectHideFlags: 0
@@ -10402,12 +10390,12 @@ PrefabInstance:
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
       propertyPath: targetTime
-      value: 45
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
       propertyPath: totalGems
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
@@ -11897,7 +11885,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 7
-      m_TileSpriteIndex: 8
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -11950,8 +11938,8 @@ Tilemap:
   - first: {x: 3, y: 2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 9
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12030,19 +12018,19 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: b20a6a468de404c9487440c0bd983c49, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 5adeb4a94427c4941a17f25af0fa2aae, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: a48964f1fcf874da59c5f13fcfabaa70, type: 2}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: dbff64ed6b6b04b17a2729c4d43ff7b8, type: 2}
   - m_RefCount: 20
     m_Data: {fileID: 11400000, guid: 53bfc3fea28e444f68250581b884f8bc, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: a8fdb30cdfa7b43b29a294dfc4e5e812, type: 2}
-  - m_RefCount: 18
+  - m_RefCount: 19
     m_Data: {fileID: 11400000, guid: 7e88fb90d84b24a70a3011330795c02d, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: e7c1aabab0a8941c79c8a87bddc17c23, type: 2}
@@ -12077,11 +12065,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -8228791482166500415, guid: c77131ed7a3e39842b182247171f6b28,
-      type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -496776632797168462, guid: c77131ed7a3e39842b182247171f6b28,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -3747767024937641969, guid: c77131ed7a3e39842b182247171f6b28,
@@ -12090,7 +12077,7 @@ Tilemap:
     m_Data: {fileID: -6959109890863391186, guid: c77131ed7a3e39842b182247171f6b28,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 4747181332684429086, guid: c77131ed7a3e39842b182247171f6b28,
+    m_Data: {fileID: -496776632797168462, guid: c77131ed7a3e39842b182247171f6b28,
       type: 3}
   - m_RefCount: 20
     m_Data: {fileID: -952614798763752270, guid: c77131ed7a3e39842b182247171f6b28,
@@ -12098,7 +12085,7 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: -1977641748429351986, guid: c77131ed7a3e39842b182247171f6b28,
       type: 3}
-  - m_RefCount: 18
+  - m_RefCount: 19
     m_Data: {fileID: -6872188658994648082, guid: c77131ed7a3e39842b182247171f6b28,
       type: 3}
   - m_RefCount: 3
@@ -12568,7 +12555,7 @@ PrefabInstance:
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
       propertyPath: levelName
-      value: '5: Boss Brawl'
+      value: '4: Big Boss Battle'
       objectReference: {fileID: 0}
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}

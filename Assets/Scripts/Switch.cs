@@ -27,6 +27,7 @@ public class Switch : MonoBehaviour
             if (deactivateOnSwitch)
             {
                 objectToSwitch.SetActive(false);
+                AudioManager.instance.PlaySFX(3);
             }
             else
             {
@@ -38,3 +39,7 @@ public class Switch : MonoBehaviour
         }
     }
 }
+
+
+
+    
