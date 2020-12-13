@@ -1855,7 +1855,7 @@ PrefabInstance:
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
       propertyPath: levelToLoad
-      value: Testing
+      value: Level1-2
       objectReference: {fileID: 0}
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
@@ -1865,12 +1865,22 @@ PrefabInstance:
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
       propertyPath: levelToCheck
-      value: Testing2
+      value: Level1-1
       objectReference: {fileID: 0}
     - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
         type: 3}
       propertyPath: levelName
-      value: '2: High Jump'
+      value: '2: Five Frog Frenzy'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: totalGems
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7876291110556206364, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5,
+        type: 3}
+      propertyPath: targetTime
+      value: 32
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb697ae75ab346ed9bfcb71d3b4e3e5, type: 3}
